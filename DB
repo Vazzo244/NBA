@@ -36,3 +36,12 @@ INSERT INTO squadre (id_squadra, nome, citta, conference, division) VALUES
 (3, 'Warriors', 'Golden State', 'West', 'Pacific'),
 (4, 'Bucks', 'Milwaukee', 'East', 'Central'),
 (5, 'Nuggets', 'Denver', 'West', 'Northwest');
+
+INSERT INTO giocatori (id_giocatore, nome, cognome, ruolo, id_squadra, punti_media) VALUES
+(101, 'LeBron', 'James', 'SF', 1, 25.7),
+(102, 'Anthony', 'Davis', 'C', 1, 24.5),
+(103, 'Jayson', 'Tatum', 'SF', 2, 26.9),
+(104, 'Stephen', 'Curry', 'PG', 3, 26.4),
+(105, 'Giannis', 'Antetokounmpo', 'PF', 4, 30.4),
+(106, 'Nikola', 'Jokic', 'C', 5, 26.1);
+
