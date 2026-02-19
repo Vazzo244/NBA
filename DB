@@ -28,3 +28,11 @@ CREATE TABLE partite (
     FOREIGN KEY (id_casa) REFERENCES squadre(id_squadra),
     FOREIGN KEY (id_trasferta) REFERENCES squadre(id_squadra)
 );
+
+
+INSERT INTO squadre (id_squadra, nome, citta, conference, division) VALUES
+(1, 'Lakers', 'Los Angeles', 'West', 'Pacific'),
+(2, 'Celtics', 'Boston', 'East', 'Atlantic'),
+(3, 'Warriors', 'Golden State', 'West', 'Pacific'),
+(4, 'Bucks', 'Milwaukee', 'East', 'Central'),
+(5, 'Nuggets', 'Denver', 'West', 'Northwest');
