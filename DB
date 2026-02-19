@@ -1,1 +1,9 @@
 CREATE DATABASE Basket;
+
+CREATE TABLE squadre (
+    id_squadra INT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,    -- Es: Lakers
+    citta VARCHAR(50),            -- Es: Los Angeles
+    conference VARCHAR(10),       -- Es: West o East
+    division VARCHAR(20)          -- Es: Pacific
+);
