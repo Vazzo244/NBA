@@ -7,3 +7,13 @@ CREATE TABLE squadre (
     conference VARCHAR(10),       -- Es: West o East
     division VARCHAR(20)          -- Es: Pacific
 );
+
+CREATE TABLE giocatori (
+    id_giocatore INT PRIMARY KEY,
+    nome VARCHAR(50),
+    cognome VARCHAR(50),
+    ruolo VARCHAR(5),             -- Es: PG, SG, SF, PF, C
+    id_squadra INT,
+    punti_media DECIMAL(4,1),     -- Statistica esempio
+    FOREIGN KEY (id_squadra) REFERENCES squadre(id_squadra)
+);
