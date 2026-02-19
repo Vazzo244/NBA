@@ -45,3 +45,7 @@ INSERT INTO giocatori (id_giocatore, nome, cognome, ruolo, id_squadra, punti_med
 (105, 'Giannis', 'Antetokounmpo', 'PF', 4, 30.4),
 (106, 'Nikola', 'Jokic', 'C', 5, 26.1);
 
+INSERT INTO partite (id_partita, data_partita, id_casa, id_trasferta, punti_casa, punti_trasferta) VALUES
+(501, '2024-01-20', 2, 1, 115, 110), -- Celtics vs Lakers
+(502, '2024-02-15', 3, 5, 108, 112), -- Warriors vs Nuggets
+(503, '2024-03-05', 4, 2, 120, 122); -- Bucks vs Celtics
